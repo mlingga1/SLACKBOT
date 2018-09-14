@@ -895,26 +895,6 @@ def bot(op):
                         cl.sendText(msg.to,"done")
                     else:
                         cl.sendText(msg.to,"Already。")                        
-            elif "Set","Test" == msg.text:
-                md = " ☞S̶e̶t̶t̶i̶n̶g̶ B̶y̶ T̶e̶a̶m̶ B̶o̶t̶ E̶d̶i̶t̶e̶d̶☜\n\n"
-                
-                if wait["contact"] == True: md+="╔═══════════════\n║[ Contact → on ]\n"       
-                else: md+="╔═══════════════\n║[ Contact → off ]\n"      
-                if wait["autoJoin"] == True: md+="║[  Auto join → on ]\n" 
-                else: md +="║[ Auto join → off ]\n"
-                if wait["autoCancel"]["on"] == True:md+="║[ Cancel Invite → " + str(wait["autoCancel"]["members"]) + " ]\n"     
-                else: md+= "║[ Cancel Invite → off ]\n"  
-                if wait["leaveRoom"] == True: md+="║[ Auto leave → on ]\n"   
-                else: md+="║[ Auto leave → off ]\n"
-                if wait["timeline"] == True: md+="║[ Auto Share → on ]\n"  
-                else:md+="║[ Auto Share → off ]\n" 
-                if wait["commentOn"] == True: md+="║[ Comment → on ]\n"   
-                else:md+="║[ Comment → off ]\n"    
-                if wait["autoAdd"] == True: md+="║[ Auto add → on ]\n"  
-                else:md+="║[ Auto add → off ]\n"   
-                if wait["likeOn"] == True: md+="║[ Auto like → on ]\n╚════════════════"
-                else:md+="║[ Auto like → off ]\n╚═══════════════" 
-                cl.sendText(msg.to,md)
             elif msg.text in ["Group id","group id"]:
                 gid = cl.getGroupIdsJoined()
                 g = ""
