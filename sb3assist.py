@@ -9,19 +9,19 @@ import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 cl = SLACKBOT.LINE()
-cl.login(token="Es7osuZe4O8Uhd8AWuM0.eoDyPh49m80ooLAM+ag0Ga.hQSiYgyuJCmiIrpFRaPxd5a6Lk740X5NiOUHaMwJ1uM=")
+cl.login(token="Ew5Y2tU2eZLtnpuel2t7.L0xn/sh81HbX2fAIDsWpHW.6Coj5XdbnN/gndYZkGxta0AEg4jCBefZwRjgXpc7KHE=")
 cl.loginResult()
 
 ki = SLACKBOT.LINE()
-ki.login(token="EsisZrdvqx5FErnZy4A5.1zUe0oCVJUa5WsBmJ9UOLq.WEcE72a/8XLOMPZo6svy4nCyLPi8YToAcYMrHkK/d1s=")
+ki.login(token="Ewel5DL5Py6S0b834lZ0.EaS9ql7x8+Z1v2bL9mFEua.R15VfDa4z3EgoNl5O3kO2Zgp5oX++MbHaKJmuqwObhA=")
 ki.loginResult()
 
 kk = SLACKBOT.LINE()
-kk.login(token="Es0WyqFcVlU9vt5AiVv2.3166fQCJYRx5lEfyHWpOuG.rDiOiq0c1NhqiTcqJP+DnEJ5vjj6Fx93k1rR6r3IA3Q=")
+kk.login(token="EwCS0Y7wIHwgd9Tywcoe.NW7r6p+/JwqDkGlfZchBdG.VWI2V+mfY2FhqkqZR07BHYrzpHmVNnmt5xZXvAiC0bc=")
 kk.loginResult()
 
 ks = SLACKBOT.LINE()
-ks.login(token="Enao9TmZmVVbFwGbLbzf.jkf9nACAg6rVkicOgwDbVW.D4rtzcp/d+MT5UxiXFJA3RflVAEnQeKK2AeSwNVCCQA=")
+ks.login(token="Ew8HFnEqJr2ETqd9nKpa.oXD2jIOTS3n4lsAQBFhFoG.RApuLDuRnn47mdCTTIAE/4HrVO4KZpvgcRqQ5T/ge1g=")
 ks.loginResult()
 
 print "╔═════════════\n╠➣Login success\n╚═════════════"
@@ -99,8 +99,8 @@ Amid = ki.getProfile().mid
 kimid = kk.getProfile().mid
 #ki2mid = ks.getProfile().mid
 Bots = [mid,Amid,kimid]#,ki2mid]
-administrator = ["u10e758a47e3d33cd0e3a56a6fc01b480"]
-admin = ["u10e758a47e3d33cd0e3a56a6fc01b480"]
+administrator = ["u9745cdf921fcd61071d856a2752c0f87"]
+admin = ["u9745cdf921fcd61071d856a2752c0f87"]
 wait = {
     'contact':False,
     'autoJoin':True,
